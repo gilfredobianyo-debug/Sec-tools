@@ -12,3 +12,17 @@ Smart file handler that safely reads files. If file doesn't exist, it auto-creat
 
 **Usage:**
 python smart_file_handler.py
+
+### 2. LinkSweep (linksweep.py)
+A simple website link checker that finds broken links for bug bounty recon.
+
+**What it does:**
+- Takes a website URL as input
+- Crawls all anchor tags `<a href>`
+- Checks each external link's HTTP status
+- Reports Working (200) vs Broken (404)
+
+**Usage:**
+```bash
+python linksweep.py
+Enter a website url: books.toscrape.com
